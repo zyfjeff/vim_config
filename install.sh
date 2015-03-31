@@ -11,8 +11,9 @@ if [ -e "/etc/redhat-release" ];then
             mkdir -p ~/.vim/ &>/dev/null
             \cp -rf ./.vimrc ~/ &>/dev/null
             \cp -rf ./* ~/.vim/ &>/dev/null
+            echo -e "\033[42m恭喜您安装完成\033[0m"
         else
-            echo "需要手动安装ctags"
+            echo -e "\033[31m安装失败!需要手动安装ctags\033[0m"
         fi
 
     fi
@@ -25,8 +26,9 @@ else
             mkdir -p ~/.vim/ &>/dev/null
             \cp -rf ./.vimrc ~/ &>/dev/null
             \cp -rf ./* ~/.vim/ &>/dev/null
+            echo -e "\033[42m恭喜您安装完成\033[0m"
         else
-            echo "需要手动安装ctags"
+            echo -e "\033[31m安装失败!需要手动安装ctags\033[0m"
         fi
     fi
 
