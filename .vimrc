@@ -30,5 +30,5 @@ colo darkblue
 
 "winmanger设置
 let g:winManagerWindowLayout="FileExplorer|TagList"
-map <c-w> :WMToggle<cr>
+map <c-a> :WMToggle<cr>
 "nmap wm :WMToggle<cr>
